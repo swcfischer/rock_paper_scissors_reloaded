@@ -17,7 +17,7 @@ def choices_to_text(player1, player2)
 end
 
 def full_words(player1_choice)
-  case choice
+  case player1_choice
   when 'r'
     'rock'
   when 's'
